@@ -1,0 +1,29 @@
+body {
+    background-color: lightgreen;
+}
+
+.h1 {
+color: purple;
+text-align: center;
+padding-top: 21%;
+}
+
+.big{
+text-align: center;
+}
+
+@media screen and (max-width: 600px)
+{
+    .h1{
+        color: blue;
+        font-size: 200%;
+   padding-top: 70%;
+    }
+    body{
+        background-color: lightblue;
+    }
+    
+    .big{
+    text-align:center;
+    }
+}
